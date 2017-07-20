@@ -1,0 +1,18 @@
+/*General styles*/
+.container .row {padding-top: 200px;padding-bottom: 200px;}
+#beatminds {
+  background-color: #000;
+}
+#beatminds .container .row {
+  color:#fff;
+}
+#beatminds .container .row p:first-child{
+  margin-top:20px;
+}
+#youtube {
+  background-color: #cb0101;
+}
+/*FLOD SECTION*/
+#flod {
+  background-color: black;
+}
