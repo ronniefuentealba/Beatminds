@@ -16,7 +16,7 @@
     <meta property="og:url" content="http://www.beatminds.cl" />
     <meta property="og:image"content="http://beatminds.cl/src/img/fb.jpg"/>
     <meta itemprop="image" content="http://beatminds.cl/src/img/tw.jpg" />
-    <link rel="shortcut icon" type="image/x-icon" href="http://beatminds.cl/src/img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="src/img/favicon.png">
 
     <link rel="stylesheet" href="src/css/bootstrap.min.css">
     <link rel="stylesheet" href="src/css/animate.css">
@@ -24,35 +24,36 @@
     <link rel="stylesheet" href="src/css/cover.css">
     <link rel="stylesheet" href="src/css/styles.css">
   </head>
-  <body data-spy="scroll" data-target="#navbarNavDropdown">
-    <nav class="navbar navbar-toggleable-md fixed-top">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand" href="#">Beatminds</a>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-        <ul class="nav" role="tablist">
-          <li class="nav-item">
-            <a class="nav-link" href="#beatminds">Proyecto</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Participantes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Twitter</a>
-              <a class="dropdown-item" href="#">Facebook</a>
-              <a class="dropdown-item" href="#">YouTube</a>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </nav>
+  <body>
+      <nav class="navbar fixed-top navbar-toggleable-md navbar-light">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="src/img/logo.svg" alt="Beatminds"></a>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#beatminds">Proyecto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#participantes">Participantes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="https://twitter.com/Beatminds_Chile">Twitter</a>
+                <a class="dropdown-item" href="https://www.facebook.com/Beatminds/">Facebook</a>
+                <a class="dropdown-item" href="https://www.youtube.com/channel/UCXBvcGtcqVX1uFsdKPUDdUw">YouTube</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
     <div class="site-wrapper">
       <div class="site-wrapper-inner">
         <div class="cover-container">
@@ -71,11 +72,36 @@
           <div class="col-2"><h2>Beatminds</h2></div>
           <div class="col-5"><p>Beatminds nace como proyecto en el 2007 con la finalidad de dar a conocer el trabajo de productores musicales, los cuales siempre estuviera en segundo plano y quienes son factor fundamental en el proceso musical de artista.</div>
         </section>
+        <section id="youtube">
+          <div class="container">
+            <div class="row">
+              <div class="col"></div>
+            </div>
+          </div>
+        </section>
+        <section id="participantes">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <h2>Participantes</h2>
+                <div class="d-flex flex-wrap justify-content-center">
+                  <div class="p-2"><p>Macrodee</p></div>
+                  <div class="p-2"><p>D++</p></div>
+                  <div class="p-2"><p>SQB</p></div>
+                  <div class="p-2"><p>Utopico</p></div>
+                  <div class="p-2"><p>Dj Raff</p></div>
+                  <div class="p-2"><p>Shandee</p></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </section>
 
     <script src="src/js/jquery-3.1.1.slim.min.js"></script>
     <script src="src/js/tether.min.js"></script>
     <script src="src/js/bootstrap.min.js"></script>
+    <script src="src/js/beatminds.js"></script>
   </body>
 </html>

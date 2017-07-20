@@ -1,18 +1,37 @@
-/*General styles*/
-.container .row {padding-top: 200px;padding-bottom: 200px;}
-#beatminds {
+/*Estilos Generales*/
+body {
   background-color: #000;
+  position: relative;
 }
-#beatminds .container .row {
+h2{
   color:#fff;
+  text-transform: uppercase;
 }
+p{
+  color: #fff;
+}
+.container .row {padding-top: 200px;padding-bottom: 200px;}
+/*Navegación*/
+.navbar.scrolled{
+  background-color: #000 !important;
+  transition: background-color 200ms linear;
+}
+.nav .nav-item .nav-link.active{
+  border-bottom: 3px solid #ad1919;
+}
+/*Seccion FLOD*/
+#flod {
+  background-color: black;
+}
+/*Seccion Proyecto */
 #beatminds .container .row p:first-child{
   margin-top:20px;
 }
+/*Secciones Social Media*/
 #youtube {
   background-color: #cb0101;
+  display: none;
 }
-/*FLOD SECTION*/
-#flod {
-  background-color: black;
+/*Secciones Participantes*/
+#participantes {
 }
