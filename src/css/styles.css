@@ -6,6 +6,7 @@ body {
 h2{
   color:#fff;
   text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
 }
 p{
   color: #fff;
@@ -19,6 +20,23 @@ p{
 .nav .nav-item .nav-link.active{
   border-bottom: 3px solid #ad1919;
 }
+.navbar-brand {
+    display: inline-block;
+    padding-top: 2rem;
+    padding-bottom: .25rem;
+    margin-left: 2.5rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.nav {
+    padding-right: 50px;
+    padding-top: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+}
+
 /*Seccion FLOD*/
 #flod {
   background-color: black;
