@@ -34,9 +34,9 @@ body {
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
-  background-image:  url(../img/grilla.png),url(../img/inter.jpg);
-  background-repeat: repeat, no-repeat;
-  background-size: auto, cover;
+  background-image:  url(../img/grilla.png);
+  background-repeat: repeat;
+  background-size: auto;
   display: table;
   width: 100%;
   height: 100%; /* For at least Firefox */
