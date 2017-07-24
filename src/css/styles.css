@@ -53,6 +53,27 @@ video#bgvid {
     font-family: 'Montserrat', sans-serif;
     font-size: 0.8rem;
 }
+.dropdown-menu.sm {
+  border:0;
+  background: none;
+  min-width: 0;
+}
+.dropdown-menu.sm a.dropdown-item {
+  background-color: #fff;
+  padding: 3px 1rem;
+}
+.dropdown-menu.sm a.dropdown-item:hover {
+  color:#fff;
+}
+.dropdown-menu.sm a.dropdown-item.fb:hover{
+  background-color: #3b5998;
+}
+.dropdown-menu.sm a.dropdown-item.tw:hover{
+  background-color: #00aced;
+}
+.dropdown-menu.sm a.dropdown-item.yt:hover{
+  background-color: #CD201F;
+}
 
 /*Seccion FLOD*/
 #flod {
