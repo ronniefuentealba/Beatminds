@@ -59,20 +59,30 @@ video#bgvid {
   min-width: 0;
 }
 .dropdown-menu.sm a.dropdown-item {
-  background-color: #fff;
-  padding: 3px 1rem;
-}
-.dropdown-menu.sm a.dropdown-item:hover {
   color:#fff;
+  padding: 3px 1rem;
+  text-align: center;
 }
-.dropdown-menu.sm a.dropdown-item.fb:hover{
+.dropdown-menu.sm a.dropdown-item.fb{
   background-color: #3b5998;
 }
-.dropdown-menu.sm a.dropdown-item.tw:hover{
+.dropdown-menu.sm a.dropdown-item.tw{
   background-color: #00aced;
 }
-.dropdown-menu.sm a.dropdown-item.yt:hover{
+.dropdown-menu.sm a.dropdown-item.yt{
   background-color: #CD201F;
+}
+.dropdown-menu.sm a.dropdown-item.fb:hover{
+  color: #3b5998;
+}
+.dropdown-menu.sm a.dropdown-item.tw:hover{
+  color: #00aced;
+}
+.dropdown-menu.sm a.dropdown-item.yt:hover{
+  color: #CD201F;
+}
+.dropdown-menu.sm a.dropdown-item:hover {
+  background-color: #FFF;
 }
 
 /*Seccion FLOD*/
