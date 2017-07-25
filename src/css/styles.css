@@ -72,6 +72,9 @@ video#bgvid {
 .dropdown-menu.sm a.dropdown-item.yt{
   background-color: #CD201F;
 }
+.dropdown-menu.sm a.dropdown-item.ig{
+  background-color: #db3173;
+}
 .dropdown-menu.sm a.dropdown-item.fb:hover{
   color: #3b5998;
 }
@@ -80,6 +83,9 @@ video#bgvid {
 }
 .dropdown-menu.sm a.dropdown-item.yt:hover{
   color: #CD201F;
+}
+.dropdown-menu.sm a.dropdown-item.ig:hover{
+  color: #db3173;
 }
 .dropdown-menu.sm a.dropdown-item:hover {
   background-color: #FFF;
