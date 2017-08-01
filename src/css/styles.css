@@ -30,6 +30,7 @@ video#bgvid {
     background-size: cover;
 }
 /*Navegación*/
+.navbar #navbarNavDropdown {display: none;}
 .navbar.scrolled{
   background-color: #000 !important;
   transition: background-color 200ms linear;
@@ -37,7 +38,7 @@ video#bgvid {
 .nav .nav-item .nav-link.active{
   border-bottom: 3px solid #ad1919;
 }
-.navbar-brand {
+/*.navbar-brand {
     display: inline-block;
     padding-top: 2rem;
     padding-bottom: .25rem;
@@ -46,6 +47,12 @@ video#bgvid {
     font-size: 1.25rem;
     line-height: inherit;
     white-space: nowrap;
+}*/
+.navbar-brand {
+  display:block;
+  position: fixed;
+  left: 50px;
+  top: 50px;
 }
 .nav {
     padding-right: 50px;
@@ -58,6 +65,7 @@ video#bgvid {
   background: none;
   min-width: 0;
 }
+.nav li.nav-item.dropdown.show .nav-link.dropdown-toggle {}
 .dropdown-menu.sm a.dropdown-item {
   color:#fff;
   padding: 3px 1rem;
