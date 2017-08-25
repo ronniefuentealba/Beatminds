@@ -11,10 +11,16 @@ h2{
 p{
   color: #fff;
 }
-.container .row {padding-top: 200px;padding-bottom: 200px;}
+.container .row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 /*BGVID*/
-video#bgvid {
-    position: fixed;
+#cover{
+  position: relative;
+  overflow: hidden;}
+#cover video#bgvid {
+    position: absolute;
     top: 50%;
     left: 50%;
     min-width: 100%;
@@ -29,8 +35,10 @@ video#bgvid {
     background: url(../img/inter.jpg) no-repeat;
     background-size: cover;
 }
+#cover .cover-container{
+    margin-top: 90px;
+}
 /*Navegación*/
-.navbar #navbarNavDropdown {display: none;}
 .navbar.scrolled{
   background-color: #000 !important;
   transition: background-color 200ms linear;
@@ -107,11 +115,53 @@ video#bgvid {
 #beatminds .container .row p:first-child{
   margin-top:20px;
 }
+#beatminds .container .row h2 {
+  text-align: center;
+}
 /*Secciones Social Media*/
 #youtube {
+  background-color: #666;
+}
+#soundcloud {
   background-color: #cb0101;
-  display: none;
 }
 /*Secciones Participantes*/
 #participantes {
+
 }
+#participantes h2 {
+  margin-bottom: 20px;
+}
+#participantes ul {
+  list-style: none;
+  width: 100%;
+}
+#participantes ul li {
+  color:#fff;
+  font-weight: bold;
+  float:left;
+  text-align: left;
+  width: 33%;
+}
+#participantes ul li:nth-child(3n+1){clear: both;}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .container .row {padding-top: 200px;padding-bottom: 200px;}
+  #cover .cover-container {
+      margin-top: 0px;
+  }
+  #participantes ul li:nth-child(2n+1){clear: both;}
+  #beatminds .container .row h2 {
+    text-align: right;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
